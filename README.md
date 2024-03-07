@@ -6,6 +6,9 @@ sudo apt-get install i2c-tools
 ## libi2c-dev 설치
 sudo apt-get install libi2c-dev
 
+## 아두이노 address 확인
+sudo i2cdetect -y 1
+
 ## python3-smbus 설치 (라즈비안 이미 설치되어있음)
 sudo apt-get install python3-smbus
 
